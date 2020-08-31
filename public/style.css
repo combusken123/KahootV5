@@ -1,0 +1,54 @@
+.error {
+  border: 1px solid red;
+}
+
+body {
+  height: 200vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.console {
+  background-color: #111b30;
+  width: 50vw;
+  height: 80vh;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  color: white;
+  position: relative;
+}
+
+.shell {
+  z-index: 3;
+}
+
+form {
+  margin: 20px;
+}
+
+.inp {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#kahoot {
+  position: relative;
+  top: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cog {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+}
