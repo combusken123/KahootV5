@@ -1,3 +1,4 @@
 # KahootV5
 
-Run by starting with node
+Clone Git repository and run by starting with `node start`
+
